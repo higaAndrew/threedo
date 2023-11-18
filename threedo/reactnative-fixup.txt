@@ -1,0 +1,28 @@
+INFO: Script is current version (1.4.1) [651]
+INFO: (Skipping show_newest_script_version) [1364]
+INFO: Found npm. [670]
+INFO: JAVA_HOME is set to /usr/lib/jvm/jdk-19 [685]
+INFO: JAVA_HOME points to an existing directory. [689]
+INFO: java is in your path. [699]
+INFO: Detected version "19.0.2" of Java. [722]
+ERROR: Go download and install JDK 20.0.2, and make sure it is in your path. [729]
+INFO: Download link: https://jdk.java.net/archive/ [732]
+FATAL: java executable location does not match up with JAVA_HOME. Fix JAVA_HOME in your environment. [746]
+INFO: Environment var(s) point to an Android SDK location /home/andrew/Android/Sdk. [760]
+INFO: Android SDK appears to exist. [764]
+INFO: SDK and JDK paths appear to be good. [802]
+INFO: brew exists. [813]
+FATAL: This project is NOT under git management (!) [834]
+vvvvvv HOW TO FIX vvvvvv
+$ git init
+$ git add .
+$ git commit -m'Initial commit'
+^^^^^^ HOW TO FIX ^^^^^
+INFO: We are in an NPM project. [841]
+INFO: We are really in a React-native project. [865]
+INFO: Confirmed: this is a CLI project. [876]
+INFO: Confirmed: this is not an expo rebuild/exported project. [887]
+INFO: Found cocoapods. [899]
+ERROR: module is_xcode_selected raised [Errno 2] No such file or directory: 'xcode-select' [1381]
+ERROR: please report to BJM ASAP [1385]
+*** (1.4.1) Message type counts: 2 fatal, 0 warn, 3 error, 17 info, 1 fixes
